@@ -11,7 +11,11 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
+		<mule.application.zip.path></mule.application.zip.path>
+		<mule.application.name></mule.application.name>
+		<mule.cloudhub.username></mule.cloudhub.username>
+		<mule.cloudhub.password></mule.cloudhub.password>
+		<mule.runtime.version>3.7.0</mule.runtime.version>
 		<mule.version>3.8.5</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
 	</properties>
@@ -72,13 +76,13 @@
 				<version>2.0</version>
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
-					<!-- muleVersion is the runtime version as it appears on the CloudHub 
-						interface -->
-					<muleVersion>3.7.0</muleVersion>
-					<username></username>
-					<password></password>
+					<muleVersion>${mule.runtime.version}</muleVersion>
+					<username>${mule.cloudhub.username}</username>
+					<password>${mule.cloudhub.password}</password>
 					<redeploy>true</redeploy>
 					<environment>Sandbox</environment>
+					<application>${mule.application.zip.path}</application>
+					<applicationName>${mule.application.name}</applicationName>
 				</configuration>
 				<executions>
 					<execution>
