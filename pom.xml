@@ -16,8 +16,8 @@
 		<mule.cloudhub.username></mule.cloudhub.username>
 		<mule.cloudhub.password></mule.cloudhub.password>
 		<mule.runtime.version>3.7.0</mule.runtime.version>
-		<mule.version>3.8.5</mule.version>
-    	<mule.tools.version>1.2</mule.tools.version>
+		<mule.version>3.8.1</mule.version>
+    	<mule.tools.version>2.0</mule.tools.version>
 	</properties>
 
 	<build>
@@ -25,7 +25,7 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-app-maven-plugin</artifactId>
-				<version>${mule.tools.version}</version>
+				<version>1.2</version>
 				<extensions>true</extensions>
 				<configuration>
                     <copyToAppsDirectory>true</copyToAppsDirectory>
