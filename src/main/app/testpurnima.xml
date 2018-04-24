@@ -86,7 +86,7 @@ http://www.mulesoft.org/schema/mule/sfdc http://www.mulesoft.org/schema/mule/sfd
 		<!-- <ws:consumer config-ref="Web_Service_Consumerweather" doc:name="Web Service Consumer" operation="GetCitiesByCountry" />
 		 --><logger level="INFO" doc:name="Logger" message="logger4: #[message]"/>
 	</flow>
-    <flow name="testpurnimaFlow">
+    <!-- <flow name="testpurnimaFlow">
         <http:listener config-ref="listener-config" path="/testsfdc" doc:name="HTTP"/>
         <set-payload value="hello" doc:name="Set Payload"/>
         <sfdc:query config-ref="Salesforce__Basic_Authentication1" query="dsql:SELECT AccountNumber FROM Account" doc:name="Salesforce" fetchSize="1"/>
@@ -95,7 +95,7 @@ http://www.mulesoft.org/schema/mule/sfdc http://www.mulesoft.org/schema/mule/sfd
             <logger message="meassage1#[payload]" level="INFO" doc:name="Logger"/>
         </foreach>
         <logger message="message2#[payload]" level="INFO" doc:name="Logger"/>
-    </flow>
+    </flow> -->
 
    <!-- End web services example -->
    

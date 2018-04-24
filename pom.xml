@@ -172,11 +172,11 @@
 			<version>${mule.version}</version>
 			<scope>test</scope>
 		</dependency>
-	<dependency>
+	<!-- <dependency>
             <groupId>org.mule.modules</groupId>
             <artifactId>mule-module-sfdc</artifactId>
             <version>7.1.2</version>
-        </dependency>
+        </dependency> -->
     </dependencies>
 
 	<repositories>
