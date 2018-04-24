@@ -19,8 +19,8 @@ http://www.mulesoft.org/schema/mule/sfdc http://www.mulesoft.org/schema/mule/sfd
 	<!-- <ws:consumer-config name="Web_Service_Consumerweather" wsdlLocation="http://www.webservicex.com/globalweather.asmx?WSDL"
 	service="GlobalWeather" port="GlobalWeatherSoap" serviceAddress="http://www.webservicex.com/globalweather.asmx"	doc:name="Web Service Consumer" />
     --> <cxf:configuration name="CXF_Configuration" enableMuleSoapHeaders="false" initializeStaticBusInstance="true" doc:name="CXF Configuration"/>
-    <sfdc:config name="Salesforce__Basic_Authentication1" username="purnima@gmail.in" password="1234" securityToken="P0uFrbOXIMEragJz4MkvJxPf" doc:name="Salesforce: Basic Authentication"/>	
-	
+   <!--  <sfdc:config name="Salesforce__Basic_Authentication1" username="purnima@gmail.in" password="1234" securityToken="P0uFrbOXIMEragJz4MkvJxPf" doc:name="Salesforce: Basic Authentication"/>	
+	 -->
 	<!-- Start web services example -->
 	
 	<flow name="create-soap-service">
