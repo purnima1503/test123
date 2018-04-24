@@ -180,6 +180,12 @@
     </dependencies>
 
 	<repositories>
+	<repository>
+		     <id>mulesoft-public</id>
+		     <name>MuleSoft Public Repository</name>
+		     <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
+		     <layout>default</layout>
+		 </repository>
           <repository>
             <id>Central</id>
             <name>Central</name>
@@ -191,13 +197,7 @@
             <name>MuleSoft Releases Repository</name>
             <url>http://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
-        </repository>
-        <repository>
-		     <id>mulesoft-public</id>
-		     <name>MuleSoft Public Repository</name>
-		     <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
-		     <layout>default</layout>
-		 </repository>
+        </repository>        
 		 <repository>
             <id>muleforge-releases</id>
             <name>MuleForge Snapshot Repository</name>
