@@ -183,10 +183,10 @@
 	<repository>
 		     <id>mulesoft-public</id>
 		     <name>MuleSoft Public Repository</name>
-		     <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
+		     <url>https://repository-master.mulesoft.org/nexus/content/repositories/public/mule/</url>
 		     <layout>default</layout>
 		 </repository>
-          <repository>
+         <!--  <repository>
             <id>Central</id>
             <name>Central</name>
             <url>http://repo1.maven.org/maven2/</url>
@@ -202,7 +202,7 @@
             <id>muleforge-releases</id>
             <name>MuleForge Snapshot Repository</name>
             <url>https://repository-master.mulesoft.org/nexus/content/repositories/releases/</url>
-        </repository>
+        </repository> -->
         
     <!-- <repository>
             <id>mule-ee-releases</id>
